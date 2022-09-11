@@ -6,9 +6,7 @@ import {withRouter} from "../../hoc/withRouter";
 class Dragon extends Component {
 
   render() {
-    const {dragonData} = this.props
-    console.log("🚀 ~ Dragon ~ render ~ dragonData", dragonData)
-    console.log("🚀 ~ Dragon ~ render ~ this.props", this.props)
+    const {dragonData} = this.props;
 
     return (
       <div className="dragon">

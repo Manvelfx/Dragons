@@ -1,0 +1,27 @@
+.dragons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dragons-list {
+  display: flex;
+}
+
+.dragons-list > .dragon + .dragon {
+  margin-left: 24px;
+}
+
+@media screen and (max-width: 550px) {
+  .dragons-list {
+    flex-direction: column;
+  }
+
+  .dragons-list > .dragon + .dragon {
+    margin-left: unset;
+  }
+
+  .dragons-list > .dragon {
+    margin-bottom: 24px;
+  }
+}

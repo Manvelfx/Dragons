@@ -14,6 +14,9 @@ h2 {
   align-items: center;  
   max-width: 250px;
 }
+.dragon-details-property-name{
+  color:aquamarine;
+}
 
 .dragon-img {
   display: flex;
@@ -30,6 +33,7 @@ h2 {
 
 .dragon-property-name {
   font-weight: 700;
+  color:aquamarine;
 }
 
 .dragon-see-more {

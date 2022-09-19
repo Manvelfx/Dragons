@@ -7,7 +7,6 @@ class Dragon extends Component {
 
   render() {
     const {dragonData} = this.props;
-
     return (
       <div className="dragon">
         <div className="dragon-img">

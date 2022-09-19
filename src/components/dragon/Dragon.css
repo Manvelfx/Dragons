@@ -1,3 +1,13 @@
+*{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h2 {
+  color: aliceblue;
+  margin: 16px;
+}
 .dragon {
   display: flex;
   flex-direction: column;
@@ -15,6 +25,7 @@
   align-self: flex-start;
   flex-direction: column;
   margin-bottom: 12px;
+  color: aliceblue;
 }
 
 .dragon-property-name {
@@ -24,6 +35,7 @@
 .dragon-see-more {
   width: 100%;
   display: flex;
+  margin-bottom: 20px;
 }
 
 .dragon-see-more__button {
@@ -44,8 +56,11 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
+  color: aliceblue;
 }
-
+.dragon-details-property-value{
+  color: aliceblue;
+}
 .dragon-property-value._one-line {
   -webkit-line-clamp: 1;
 }

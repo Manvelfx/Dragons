@@ -68,3 +68,19 @@ h2 {
 .dragon-property-value._one-line {
   -webkit-line-clamp: 1;
 }
+
+a:link, a:visited {
+  text-decoration: none;
+  cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px 0 ;
+    min-width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  a:hover, a:active {
+    background-color: lightcoral;
+  }

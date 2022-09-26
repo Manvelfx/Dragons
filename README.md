@@ -2,14 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 In the project directory, you can run:
 
-1 clone repo
-2 npm install
-3 ### `cp .env.example .env`
-4 ### `npm start`
+### 1 from first you need to clone repo
+### 2 npm install
+### 3 `cp .env.example .env`
+### 4 `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

@@ -4,7 +4,6 @@ import { AuthContext } from "./context/Auth";
 
 const PrivateRoute = ({ component: RouteComponent, ...rest }) => {
   const auth = useContext(AuthContext);
-  console.log("🚀 ~ PrivateRoute ~ auth", auth)
   return (
     !!auth.currentUser ? <Outlet /> : <Navigate to="/login" />
   );

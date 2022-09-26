@@ -10,9 +10,7 @@ export default class AuthProvider extends Component {
   };
 
   componentDidMount() {
-    console.log("Here....")
     app.auth().onAuthStateChanged((user) => {
-      console.log("🚀 ~ AuthProvider ~ app.auth ~ user", user)
       this.setState({
         currentUser: user,
         pending: false

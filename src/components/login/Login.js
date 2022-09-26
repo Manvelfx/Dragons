@@ -17,7 +17,6 @@ class Login extends Component {
         const signIn = await app
           .auth()
           .signInWithEmailAndPassword(email.value, password.value);
-        console.log("🚀 ~ Login ~ signIn", signIn)
         this.props.navigate("/");
       } catch (error) {
         alert(error);

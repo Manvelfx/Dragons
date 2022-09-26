@@ -1,13 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).In the project directory, you can run:
 
-In the project directory, you can run:
-
-### 1 from first you need to clone repo
-### 2 npm install
-### 3 `cp .env.example .env`
-### 4 `npm start`
+### 1) from first you need to clone repo than go to `Windows CMD`
+### 2) go to our file Dragons with command `cd`(`cd ../Dragons`) and  make `npm install` in `CMD` 
+### 3) `cp .env.example .env`
+### 4)At last make `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

@@ -7,7 +7,7 @@
 .dragons button {
   cursor: pointer;
   height: 32px;
-  min-width: 120px;
+  width: 120px;
   font-size: 14px;
   background-color: lightcoral;
   color: white;

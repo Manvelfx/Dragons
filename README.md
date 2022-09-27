@@ -6,6 +6,8 @@
 The project gets and shows a piece of information about the Dragon spacecraft developed by SpaceX.
 It uses well known Dragons API: https://api.spacexdata.com/v4/dragons
 
+The app is also deployed to the netlify cluster:
+https://gorgeous-trifle-c0aca8.netlify.app/login
 
 ## Run Locally
 

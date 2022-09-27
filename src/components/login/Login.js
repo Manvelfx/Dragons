@@ -14,7 +14,7 @@ class Login extends Component {
       event.preventDefault();
       const { email, password } = event.target.elements;
       try {
-        const signIn = await app
+        await app
           .auth()
           .signInWithEmailAndPassword(email.value, password.value);
         this.props.navigate("/");
